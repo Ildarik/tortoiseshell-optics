@@ -44,3 +44,15 @@ nav ul {
 nav ul li {
   margin-left: 2rem;
 }
+
+.headline {
+  position: relative;
+  padding: 1.5rem 5rem;
+  float: right;
+  top: 11rem;
+  margin-right: -2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+}
