@@ -56,3 +56,27 @@ nav ul li {
   line-height: 1.2;
   background-color: white;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  height: 8rem;
+}
+
+.service {
+  margin-left: 6rem;
+}
+
+.paper img {
+  max-width: 3.5rem;
+}
+
+.ruler img,
+.truck img {
+  max-width: 5rem;
+}
+
+.description {
+  display: block;
+}
