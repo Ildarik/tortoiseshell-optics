@@ -1,5 +1,8 @@
-body {
+html {
   font-size: 18px;
+}
+
+body {
   line-height: 1.4;
   font-family: Helvetica, sans-serif;
 }
@@ -83,4 +86,12 @@ nav ul li {
 
 .description {
   display: block;
+}
+
+/* Footer */
+
+footer .company {
+  padding: 4rem 4rem;
+  margin-top: 5rem;
+  background-color: azure;
 }
