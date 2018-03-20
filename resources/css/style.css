@@ -88,6 +88,31 @@ nav ul li {
   display: block;
 }
 
+/* Info section */
+
+.informations {
+  display: flex;
+  /* How in solution? + 5% between */
+  justify-content: center;
+}
+
+.info {
+  flex-basis: 35%;
+  margin-left: 5%;
+}
+
+.title {
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+
 /* Footer */
 
 footer .company {
