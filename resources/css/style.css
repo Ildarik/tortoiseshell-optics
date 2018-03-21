@@ -31,6 +31,12 @@ header {
   padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  header {
+    top: 0;
+  }
+}
+
 .company {
   display: flex;
 }
