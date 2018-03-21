@@ -15,6 +15,12 @@ body {
   height: 30rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .banner {
+    height: 22rem;
+  }
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
