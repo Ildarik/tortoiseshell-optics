@@ -72,6 +72,15 @@ nav ul li {
   background-color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+  .headline {
+    top: 6rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
 .services {
   display: flex;
   justify-content: center;
