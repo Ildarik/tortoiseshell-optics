@@ -133,6 +133,28 @@ nav ul li {
   text-align: center;
 }
 
+@media only screen and (max-width: 470px) {
+  .services,
+  .informations {
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .services {
+    margin: 3rem;
+  }
+
+  /* How in solution? */
+  .service {
+    margin: 0.77rem 0;
+  }
+
+  .description {
+    font-size: 0.77rem;
+  }
+}
+
 .paper img {
   max-width: 3.5rem;
 }
