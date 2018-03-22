@@ -60,6 +60,24 @@ nav ul li {
   margin-left: 2rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  nav ul {
+    display: none;
+  }
+
+  .company span {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}
+
 .headline {
   position: relative;
   padding: 1.5rem 5rem;
