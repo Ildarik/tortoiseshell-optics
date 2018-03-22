@@ -193,6 +193,25 @@ nav ul li {
   margin-top: 1rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .info {
+    margin-left: 0;
+  }
+
+  .info p {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+
+  .title {
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* Footer */
 
 footer .company {
